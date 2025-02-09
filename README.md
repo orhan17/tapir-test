@@ -56,6 +56,14 @@
 - **Фильтр авто:** `GET /stock?year_from=2010&price_less=1000000`
 - **Создание заявки:** `POST /application` (поля: `phone`, `car_id`)
 
+## Testing
+
+- **CRMServiceTest**
+- **ImportServiceTest**
+- **StockControllerTest**
+
+
+
 ## Admin Orchid
 
 - Панель администратора: [http://localhost:8000/admin](http://localhost:8000/admin)
