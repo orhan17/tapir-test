@@ -11,13 +11,14 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/username/tapir-test.git
+   git clone https://github.com/orxan19/tapir-test.git
    cd tapir-test
    ```
 
 2. Скопируйте `.env.example` в `.env` (внутри папки `src/`):
    ```bash
    cp src/.env.example src/.env
+   cp .env.example .env
    ```
 
 3. Убедитесь, что в `src/.env` прописаны корректные настройки:
@@ -60,6 +61,6 @@
 - Панель администратора: [http://localhost:8000/admin](http://localhost:8000/admin)
 - Создать пользователя:
    ```bash
-   docker-compose exec app php artisan orchid:admin
+   docker compose exec app php artisan orchid:admin
    ```
   Затем войдите логином/паролем, который укажете.
