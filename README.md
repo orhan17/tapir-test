@@ -33,12 +33,12 @@
 
 4. Запустите контейнеры:
    ```bash
-   docker-compose up -d
+   docker compose up --build
    ```
 
 5. Зайдите в контейнер PHP-FPM и установите Laravel-зависимости:
    ```bash
-   docker-compose exec app bash
+   docker compose exec app bash
    composer install
    php artisan key:generate
    php artisan migrate
