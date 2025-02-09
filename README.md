@@ -11,7 +11,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/orxan19/tapir-test.git
+   git clone https://github.com/orhan17/tapir-test.git
    cd tapir-test
    ```
 
@@ -47,7 +47,7 @@
 
 6. Проверьте в браузере:
    - [http://localhost:8000](http://localhost:8000) – главная страница Laravel
-   - [http://localhost:8081](http://localhost:8081) – phpMyAdmin (логин: `root`, пароль: `root`, если не меняли)
+   - [http://localhost:8081](http://localhost:8081) – phpMyAdmin (логин: `laravel`, пароль: `laravel`, если не меняли)
    - [http://localhost:9090](http://localhost:9090) – Prometheus
    - [http://localhost:3000](http://localhost:3000) – Grafana
 
